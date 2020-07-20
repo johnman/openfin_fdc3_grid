@@ -1,0 +1,26 @@
+{
+  "devtools_port": 9090,
+  "licenseKey": "request-a-key",
+  "startup_app": {
+    "name": "OpenFin FDC3 Grid Listener",
+    "description": "Publishes instrument selection from a grid",
+    "url": "https://p67mt.csb.app/listener.html",
+    "uuid": "ag-grid-fdc3-listener",
+    "autoShow": true,
+    "applicationIcon": "https://p67mt.csb.app/favicon.ico",
+    "api": {
+      "iframe": {
+        "crossOriginInjection": true,
+        "sameOriginInjection": true
+      }
+    }
+  },
+  "services": [
+    {
+      "name": "fdc3"
+    }
+  ],
+  "runtime": {
+    "version": "stable"
+  }
+}
