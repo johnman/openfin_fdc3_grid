@@ -4,9 +4,13 @@ This is an example repo. It contains a publisher app that publishes an instrumen
 
 The applications import the fdc3 support by using a script tag and enabling the service in the config file.
 
-The codesandbox site is here: https://p67mt.csb.app/
+The codesandbox site is here: https://cyhir.csb.app/
 
-And the codesandbox ide is located here: https://codesandbox.io/s/fdc3-grid-instrument-p67mt?file=/README.md
+And the codesandbox ide is located here: https://codesandbox.io/s/openfin-fdc3-grid-demo-cyhir?file=/README.md
+
+To run locally clone or download the zip, extract, npm install and then run npm start.
+
+You will be shown a page with a set of links. Click and launch the Local versions of the app.
 
 More information about OpenFin:
 

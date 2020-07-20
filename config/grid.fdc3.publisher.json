@@ -4,10 +4,10 @@
   "startup_app": {
     "name": "OpenFin FDC3 Grid Publisher",
     "description": "Publishes instrument selection from a grid",
-    "url": "https://p67mt.csb.app/publisher.html",
+    "url": "https://cyhir.csb.app/publisher.html",
     "uuid": "ag-grid-fdc3-publisher",
     "autoShow": true,
-    "applicationIcon": "https://p67mt.csb.app/favicon.ico",
+    "applicationIcon": "https://cyhir.csb.app/favicon.ico",
     "api": {
       "iframe": {
         "crossOriginInjection": true,
