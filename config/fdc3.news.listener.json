@@ -1,0 +1,26 @@
+{
+  "devtools_port": 9090,
+  "licenseKey": "request-a-key",
+  "startup_app": {
+    "name": "OpenFin FDC3 News Intent Listener",
+    "description": "Listens to news for a particular instrument",
+    "url": "https://cyhir.csb.app/news.listener.html",
+    "uuid": "fdc3-demo-news-listener",
+    "autoShow": true,
+    "applicationIcon": "https://cyhir.csb.app/favicon.ico",
+    "api": {
+      "iframe": {
+        "crossOriginInjection": true,
+        "sameOriginInjection": true
+      }
+    }
+  },
+  "services": [
+    {
+      "name": "fdc3"
+    }
+  ],
+  "runtime": {
+    "version": "stable"
+  }
+}

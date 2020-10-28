@@ -1,0 +1,26 @@
+{
+  "devtools_port": 9090,
+  "licenseKey": "request-a-key",
+  "startup_app": {
+    "name": "OpenFin FDC3 News Publisher",
+    "description": "Publishes instrument selection from a grid which raises an intent",
+    "url": "https://cyhir.csb.app/news.publisher.html",
+    "uuid": "fdc3-news-publisher",
+    "autoShow": true,
+    "applicationIcon": "https://cyhir.csb.app/favicon.ico",
+    "api": {
+      "iframe": {
+        "crossOriginInjection": true,
+        "sameOriginInjection": true
+      }
+    }
+  },
+  "services": [
+    {
+      "name": "fdc3"
+    }
+  ],
+  "runtime": {
+    "version": "stable"
+  }
+}

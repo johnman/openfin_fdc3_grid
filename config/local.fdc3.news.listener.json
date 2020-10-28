@@ -1,0 +1,26 @@
+{
+  "devtools_port": 9090,
+  "licenseKey": "request-a-key",
+  "startup_app": {
+    "name": "Local OpenFin FDC3 News Intent Listener",
+    "description": "Listens to news for a particular instrument",
+    "url": "http://localhost:5000/news.listener.html",
+    "uuid": "local-fdc3-demo-news-listener",
+    "autoShow": true,
+    "applicationIcon": "http://localhost:5000/favicon.ico",
+    "api": {
+      "iframe": {
+        "crossOriginInjection": true,
+        "sameOriginInjection": true
+      }
+    }
+  },
+  "services": [
+    {
+      "name": "fdc3"
+    }
+  ],
+  "runtime": {
+    "version": "stable"
+  }
+}
