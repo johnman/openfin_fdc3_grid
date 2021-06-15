@@ -1,0 +1,54 @@
+{
+  "platform": {
+    "uuid": "fdc3-chart-listener-platform"
+  },
+
+  "snapshot": {
+    "windows": [
+      {
+        "layout": {
+          "content": [
+            {
+              "type": "stack",
+
+              "content": [
+                {
+                  "type": "component",
+
+                  "componentName": "view",
+
+                  "componentState": {
+                    "name": "wim-charts",
+
+                    "url": "https://cyhir.csb.app/chart.listener.html"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "runtime": {
+    "arguments": "",
+
+    "version": "stable"
+  },
+  "services": [
+    {
+      "name": "fdc3"
+    }
+  ],
+
+  "intents": [
+    {
+      "name": "ViewChart",
+
+      "contexts": ["fdc3.instrument"],
+
+      "displayName": "Demo Charting Application"
+    }
+  ]
+}

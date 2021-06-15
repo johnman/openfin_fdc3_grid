@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>GRID AND FDC3 News Intent Publisher</title>
+    <title>FDC3 Chart Listener</title>
     <script src="https://cdn.openfin.co/services/openfin/fdc3/0.2.2/openfin-fdc3.js"></script>
     <script src="https://unpkg.com/ag-grid-community/dist/ag-grid-community.min.noStyle.js"></script>
     <link
@@ -15,20 +15,19 @@
       rel="stylesheet"
       href="https://unpkg.com/ag-grid-community/dist/styles/ag-theme-alpine.css"
     />
-    <script src="components/openfin-link.js"></script>
     <script type="module" src="components/fdc3-channel-picker.js"></script>
-    <script type="module" src="js/news.publisher.js"></script>
+    <script type="module" src="js/chart.listener.js"></script>
     <link rel="stylesheet" href="style/main.css" />
   </head>
   <body>
     <h1>
-      News Intent Raiser (Select an instrument to raise the intent that you wish
-      to see news about it)
+      Chart Intent Listener (Adds a row for every instrument someone wishes to
+      view a chart about)
     </h1>
     Channel Picker: <fdc3-channel-picker></fdc3-channel-picker>
     <div
       id="myGrid"
-      style="height: 200px; width: 610px;"
+      style="height: 440px; width: 650px;"
       class="ag-theme-alpine"
     ></div>
   </body>
